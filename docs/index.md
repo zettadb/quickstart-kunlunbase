@@ -1,8 +1,8 @@
-# 阿里云使用 KunlunBase 云数据库指南
+# 阿里云 KunlunBase云数据库使用指南
 
  
 
-## 注意：
+**注意：**
 
 如无特别说明，文中的版本号可以使用任何已发布版本的版本号代替。
 
@@ -24,13 +24,13 @@ https://computenest.console.aliyun.com/user/cn-hangzhou/recommendService
 
  
 
-### 1.1 点击 “免费试用”
+**1.1 点击 “免费试用”**
 
 ![](阿里云使用KunlunBase云数据库指南/1.png)
 
  
 
-### 1.2 填写相应的信息，申请免费试用
+**1.2 填写相应的信息，申请免费试用**
 
 选择模版，填写实例名称和选择分配实例的地域。
 
@@ -68,7 +68,7 @@ https://computenest.console.aliyun.com/user/cn-hangzhou/recommendService
 
  
 
-### 1.3 部署环境检查
+**1.3 部署环境检查**
 
  
 
@@ -102,19 +102,19 @@ http://47.97.174.116:5601
 
 ## 2. 云市场购买
 
-### 2.1 点击“云市场购买”
+**2.1 点击“云市场购买”**
 
 ![](阿里云使用KunlunBase云数据库指南/10.png)
 
  
 
-### 2.2 选择购买的 “套餐版本”，“购买时长” 以及 “服务区域”。之后点击 “立即购买”
+**2.2 选择购买的 “套餐版本”，“购买时长” 以及 “服务区域”。之后点击 “立即购买”**
 
 ![](阿里云使用KunlunBase云数据库指南/11.png)
 
  
 
-### 2.3 填写创建集群的信息。
+**2.3 填写创建集群的信息**
 
 服务实例名称为 Kunluntesting, 地域选择 ”华南1（深圳）”。用户可以根据自己所在的地方选择合适的地域。
 
@@ -274,7 +274,7 @@ http://doc.kunlunbase.com/XPanel_Manual.html
 
 ## 4. 访问计算实例
 
-### 4.1 可以在资源页面点击“远程连接”连接相应的服务器
+**4.1 可以在资源页面点击“远程连接”连接相应的服务器**
 
 ![](阿里云使用KunlunBase云数据库指南/36.png)
 
@@ -286,7 +286,7 @@ http://doc.kunlunbase.com/XPanel_Manual.html
 
  
 
-### 4.2 或在使用本地的 ssh 工具(putty 或其他)通过 Public IP 连接计算节点
+**4.2 或在使用本地的 ssh 工具(putty 或其他)通过 Public IP 连接计算节点**
 
 ![](阿里云使用KunlunBase云数据库指南/38.png)
 
@@ -306,7 +306,7 @@ http://doc.kunlunbase.com/XPanel_Manual.html
 
 
 
-### 5.1 修改设置环境变量脚本
+**5.1 修改设置环境变量脚本**
 
 `[klbase@server-0 ~]$ vi ~/kunlunbase/env.sh`
 
@@ -327,9 +327,3 @@ http://doc.kunlunbase.com/XPanel_Manual.html
 登录 Kibana 链接：http://47.97.174.116:5601。 参考[链接](http://doc.kunlunbase.com/KunlunBase_uses_Kibana_to_view_node_log_information.html)中的步骤添加日志索引和查看日志。
 
 ![](阿里云使用KunlunBase云数据库指南/40.png)
-
- 
-
- 
-
-## END
